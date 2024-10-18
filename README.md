@@ -34,7 +34,7 @@ Here's a quick example of how to use the plugin to create an animation of a plan
 
 ```python
 from manim import *
-from manim-Astronomy.stellar_objects import Planet,Star
+from manim_Astronomy.stellar_objects import Planet,Star
 
 class PlanetOrbit(Scene):
     def construct(self):
