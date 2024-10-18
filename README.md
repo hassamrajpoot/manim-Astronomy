@@ -60,4 +60,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
-Developed by [Hassam ul Haq]. Special thanks to the [Manim Community](https://www.manim.community/) for making this project possible! 🌟
+Developed by [Hassam ul Haq](https://www.github.com/hassamrajpoot). Special thanks to the [Manim Community](https://www.manim.community/) for making this project possible! 🌟
