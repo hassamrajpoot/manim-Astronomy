@@ -2,7 +2,7 @@ from manim import *
 from manim.typing import Point3D
 import numpy as np
 from manim.mobject.opengl.opengl_compatibility import ConvertToOpenGL
-from manim.mobject.opengl.opengl_geometry import OpenGLDot
+
 
 
 class Star(ThreeDVMobject, metaclass=ConvertToOpenGL):

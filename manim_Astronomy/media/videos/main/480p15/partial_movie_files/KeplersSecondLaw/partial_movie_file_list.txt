@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/iT HOME/Desktop/manim-Astronomy/manim_Astronomy/media/videos/main/480p15/partial_movie_files/KeplersSecondLaw/uncached_00000.mp4'
+file 'file:C:/Users/iT HOME/Desktop/manim-Astronomy/manim_Astronomy/media/videos/main/480p15/partial_movie_files/KeplersSecondLaw/uncached_00001.mp4'
+file 'file:C:/Users/iT HOME/Desktop/manim-Astronomy/manim_Astronomy/media/videos/main/480p15/partial_movie_files/KeplersSecondLaw/uncached_00002.mp4'
