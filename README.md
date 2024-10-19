@@ -1,7 +1,7 @@
 
 # 🌌 Astronomy Plugin for Manim
 
-![Logo](path-to-your-logo.png) <!-- Replace with the path to your logo -->
+![Logo](Logo/Manim.png) <!-- Replace with the path to your logo -->
 
 ### ✨ A Manim Extension for Creating Astronomical Visualizations
 
