@@ -99,9 +99,7 @@ class KeplersSecondLaw(ThreeDScene):
 ```
 ![Rendered Scene](./DisplayExample/KeplersSecondLaw-ezgif.com-video-to-gif-converter.gif)
 
-## Documentation
 
-For more advanced features and usage, check out the [full documentation](link-to-docs).
 
 ### Main Components
 
