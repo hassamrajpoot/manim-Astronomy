@@ -8,6 +8,10 @@
 **⚠️ Currently in Development**: This plugin is a work in progress. Features and functionality may change as we refine the project!
 
 ---
+## ⚠️ Disclaimer
+
+**This plugin is not a scientific simulation tool** and may not depict accurate physics or astronomical phenomena. It is designed for **visualization purposes only**. For accurate astronomical simulations, consider using specialized tools!
+
 
 ## Features
 
