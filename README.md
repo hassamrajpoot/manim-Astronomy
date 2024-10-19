@@ -106,6 +106,8 @@ For more advanced features and usage, check out the [full documentation](link-to
 ### Main Components
 
 - **Planet**: Create spherical objects representing planets.
+- **Star**: Create a Star using particles.
+- **SpaceTimeFabric**: A grid-like representation of space-time, often used to demonstrate the concept of gravitational curvature.
 
 ## Contributing
 
