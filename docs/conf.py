@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.abspath('../..'))  # Adjust path if needed
 
 project = 'Astronomy Plugin for Manim'
 author = 'Hassam ul Haq'
-release = '0.0.1'
+release = '0.0.2'
 
 
 extensions = [

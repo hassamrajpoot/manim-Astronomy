@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: manim-Astronomy
-Version: 0.0.1
+Version: 0.0.2
 Summary: A Manim extension for creating astronomical visualizations
 Home-page: https://github.com/hassamrajpoot/manim-Astronomy
 Author: Hassam ul Haq
@@ -117,6 +117,9 @@ class KeplersSecondLaw(ThreeDScene):
 ```
 ![Rendered Scene](./DisplayExample/KeplersSecondLaw-ezgif.com-video-to-gif-converter.gif)
 
+## 📚 Documentation
+
+For detailed documentation, please visit: [Documentation Link](https://manim-astronomy.readthedocs.io/en/latest/)
 
 
 ### Main Components
