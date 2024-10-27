@@ -116,4 +116,4 @@ This project is licensed under the MIT License - see the `LICENSE <LICENSE>`_ fi
 
 Credits
 -------
-Developed by `Hassam ul Haq <https://github.com/hassamrajpoot/>`. Special thanks to the `Manim Community <https://www.manim.community/>`_ for making this project possible! 🌟
+Developed by `Hassam ul Haq <https://github.com/hassamrajpoot/>`_. Special thanks to the `Manim Community <https://www.manim.community/>`_ for making this project possible! 🌟
