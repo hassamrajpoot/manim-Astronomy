@@ -99,6 +99,9 @@ class KeplersSecondLaw(ThreeDScene):
 ```
 ![Rendered Scene](./DisplayExample/KeplersSecondLaw-ezgif.com-video-to-gif-converter.gif)
 
+## 📚 Documentation
+
+For detailed documentation, please visit: [Documentation Link](https://manim-astronomy.readthedocs.io/en/latest/)
 
 
 ### Main Components
