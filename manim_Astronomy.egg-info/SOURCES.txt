@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+manim_Astronomy/__init__.py
+manim_Astronomy/examples.py
+manim_Astronomy/main.py
+manim_Astronomy/stellar_objects.py
+manim_Astronomy.egg-info/PKG-INFO
+manim_Astronomy.egg-info/SOURCES.txt
+manim_Astronomy.egg-info/dependency_links.txt
+manim_Astronomy.egg-info/requires.txt
+manim_Astronomy.egg-info/top_level.txt
