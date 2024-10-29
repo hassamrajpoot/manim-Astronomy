@@ -1,6 +1,7 @@
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../..'))  # Adjust path if needed
+sys.path.insert(0, os.path.abspath('../..')) 
+sys.path.insert(0, os.path.abspath('.')) 
 
 project = 'Astronomy Plugin for Manim'
 author = 'Hassam ul Haq'

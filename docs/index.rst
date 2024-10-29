@@ -106,6 +106,13 @@ Main Components
 - **Star**: Create a Star using particles.
 - **SpaceTimeFabric**: A grid-like representation of space-time, often used to demonstrate the concept of gravitational curvature.
 
+.. toctree::
+   :maxdepth: 2
+
+   classes/spacetimefabric
+   # Add other class files here
+
+
 Contributing
 ------------
 We welcome contributions! Please submit issues or pull requests to help improve the plugin. Make sure to follow our `contribution guidelines <https://docs.manim.community/en/stable/contributing.html>`_ for code style and testing. 🤝
