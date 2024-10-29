@@ -2,7 +2,7 @@
 Astronomy Plugin for Manim
 =========================
 
-.. image:: Logo.png
+.. image:: Assets/Logo.png
    :align: center
 
 A Manim Extension for Creating Astronomical Visualizations
@@ -96,7 +96,7 @@ Here's a quick example of how to use the plugin to create an animation of a plan
            self.play(time_tracker.animate.set_value(1), run_time=5, rate_func=linear)
            self.wait(5)
 
-.. image:: displaygif.gif
+.. image:: Assets/displaygif.gif
    :align: center
    :alt: Rendered Scene
 
