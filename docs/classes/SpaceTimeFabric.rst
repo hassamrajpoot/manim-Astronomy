@@ -1,5 +1,5 @@
 SpaceTimeFabric Class [![Gravity](https://cdn3.emoji.gg/emojis/7213-gravity.png)](https://emoji.gg/emoji/7213-gravity)
-======================
+=====================
 
 The `SpaceTimeFabric` class is designed to visualize the effects of gravitational fields on a space-time fabric. This class can be used in various scenarios to illustrate gravitational interactions and distortions caused by massive objects.
 
