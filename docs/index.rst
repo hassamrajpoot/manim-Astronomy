@@ -108,9 +108,9 @@ Main Components
 
 .. toctree::
    :maxdepth: 2
+   :caption: Classes
 
-   classes/spacetimefabric
-   # Add other class files here
+   classes/SpaceTimeFabric
 
 
 Contributing
