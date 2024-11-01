@@ -78,6 +78,6 @@ This example demonstrates how the presence of massive objects, like stars, disto
 .. raw:: html
 
    <video width="600" height="400" controls autoplay loop>
-       <source src="./rendered_videos/SpaceTimeFabricDistortionByAStar.mp4" type="video/mp4">
+       <source src="rendered_videos/SpaceTimeFabricDistortionByAStar.mp4" type="video/mp4">
        Your browser does not support the video tag.
    </video>
