@@ -11,7 +11,8 @@ release = '0.0.2'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.napoleon',
-    'sphinx.ext.autosummary'  
+    'sphinx.ext.autosummary',
+    'sphinxcontrib.video' 
 ]
 
 

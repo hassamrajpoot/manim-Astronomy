@@ -33,9 +33,9 @@ This example demonstrates how the presence of massive objects, like stars, disto
     from manim_Astronomy.stellar_objects import *
 
     def gravitational_potential(u, v, mass_positions, masses):
-        G = 1  # Gravitational constant
+        G = 1 
         potential = 0
-        epsilon = 0.1  # Small offset to prevent division by zero
+        epsilon = 0.1  
         for i in range(len(mass_positions)):
             mass_posu, mass_posv, mass_posz = mass_positions[i]
             M = masses[i]
