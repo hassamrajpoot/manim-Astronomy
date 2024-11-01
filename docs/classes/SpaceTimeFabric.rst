@@ -73,8 +73,7 @@ This example demonstrates how the presence of massive objects, like stars, disto
             self.play(FadeIn(mass1, mass2))
             self.wait(3)
             self.wait(10)
-
-
+            
 .. raw:: html
 
    <video width="600" height="400" controls autoplay loop>
