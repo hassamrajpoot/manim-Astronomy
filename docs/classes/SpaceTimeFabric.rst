@@ -73,3 +73,11 @@ This example demonstrates how the presence of massive objects, like stars, disto
             self.play(FadeIn(mass1, mass2))
             self.wait(3)
             self.wait(10)
+
+
+.. video:: rendered_videos/SpaceTimeFabricDistortionByAStar.mp4
+   :width: 600
+   :height: 400
+   :autoplay: true
+   :loop: true
+   :align: center
