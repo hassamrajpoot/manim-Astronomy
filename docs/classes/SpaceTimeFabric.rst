@@ -22,8 +22,8 @@ Parameters
 Examples
 --------
 
-### Illustration of Space-Time Fabric Distortion by a Star
-
+Illustration of Space-Time Fabric Distortion by a Star
+------------------------------------------------------
 This example demonstrates how the presence of massive objects, like stars, distorts the space-time fabric.
 
 .. code-block:: python
