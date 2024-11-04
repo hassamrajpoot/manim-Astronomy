@@ -1,3 +1,3 @@
 from stellar_objects import *
 
-__all__ = ['Star','SpaceTimeFabric']
+__all__ = ['Star','Planet','SpaceTimeFabric','HubbleSpaceTelescope']

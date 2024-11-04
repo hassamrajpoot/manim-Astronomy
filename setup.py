@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='manim-Astronomy',
-    version='0.0.2',
+    version='0.0.3',
     author='Hassam ul Haq',
     author_email='hassamrajpoot100@gmail.com',
     description='A Manim extension for creating astronomical visualizations',
