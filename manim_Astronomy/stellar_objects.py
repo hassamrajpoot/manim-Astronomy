@@ -127,6 +127,34 @@ class HubbleSpaceTelescope(VMobject):
         self.add(model)
 
 
+class JamesWebbSpaceTelescope(VMobject):
+    def __init__(
+        self,
+        center=ORIGIN,
+        size=0.1,
+        **kwargs
+    ) -> None:
+        super().__init__(**kwargs)
+        self.center = center
+        self.color = GREY
+        self.size = size
+        self.stroke_width = 0.1
+        self.fill_opacity = 1
+        self.__setup_telescope_using_wavefront_data()  
+
+    def __setup_telescope_using_wavefront_data(self):
+        mesh = Mesh("./Assets/jwst.obj")
+        vertices = [np.array(vertex) for vertex in mesh.vertices]  
+        faces = mesh.cells 
+        model = VGroup()
+        for i in range(len(faces)):
+            face_indices = faces[i]
+            face_vertices = [vertices[j] for j in face_indices]
+            polygon = Polygon(*face_vertices, color=self.color, fill_opacity=self.stroke_width, stroke_width=self.fill_opacity)
+            model.add(polygon)
+        model.scale(self.size).move_to(self.center)
+        self.add(model)
+
 class SpaceTimeFabric(ThreeDVMobject, metaclass=ConvertToOpenGL):
     def __init__(
         self,
