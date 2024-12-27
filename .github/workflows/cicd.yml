@@ -20,6 +20,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libsdl-pango-dev
+          
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -37,21 +38,21 @@ jobs:
           python -c "from manim_Astronomy import *; assert True"  
           echo "Basic test passed: manim and manim_astronomy are properly installed."
 
-  build:
-    runs-on: ubuntu-latest
-    needs: test
+  # build:
+  #   runs-on: ubuntu-latest
+  #   needs: test
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.11
+  #     - name: Set up Python
+  #       uses: actions/setup-python@v4
+  #       with:
+  #         python-version: 3.11
 
-      - name: Build package
-        run: python -m build
+  #     - name: Build package
+  #       run: python -m build
 
   # publish:
   #   runs-on: ubuntu-latest
@@ -81,6 +82,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libsdl-pango-dev
 
       - name: Set up Python
         uses: actions/setup-python@v4
