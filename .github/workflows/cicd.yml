@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -34,6 +34,7 @@ jobs:
       - name: Run basic test
         run: |
           python -c "import manim; assert manim"
+          pip show manim-Astronomy
           python -c "from manim_astronomy import *; assert True"  
           echo "Basic test passed: manim and manim_astronomy are properly installed."
 
