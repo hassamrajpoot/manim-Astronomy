@@ -34,8 +34,7 @@ jobs:
       - name: Run basic test
         run: |
           python -c "import manim; assert manim"
-          pip show -f manim-Astronomy
-          python -c "from manim_astronomy import *; assert True"  
+          python -c "from manim_Astronomy import *; assert True"  
           echo "Basic test passed: manim and manim_astronomy are properly installed."
 
   build:
