@@ -23,13 +23,9 @@ Features
 
 Installation
 ------------
-Make sure you have `Manim` installed on your machine. Then, you can install this plugin by cloning the repository and installing the required dependencies.
-
 .. code-block:: bash
 
-   git clone https://github.com/hassamrajpoot/manim-Astronomy.git
-   cd manim-Astronomy
-   pip install -r requirements.txt
+   pip install manim-Astronomy
 
 Usage
 -----
